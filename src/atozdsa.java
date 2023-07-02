@@ -13,7 +13,7 @@ public class atozdsa {
 
     static void reverse(int n) {
         int reverse = 0;
-        while (n > 0) {
+        while (n > 0) {//jajaf
             int last = n % 10;
             reverse = last + (reverse * 10);
             n = n / 10;
